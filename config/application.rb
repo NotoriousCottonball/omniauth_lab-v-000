@@ -20,7 +20,7 @@ module OmniauthLab
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    # for Facebook required https
+    # for Facebook required https(Unless LocalHost)
     #config.force_ssl = true
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
